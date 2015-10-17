@@ -19,7 +19,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/w7/overlay
 
 # Apps
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
     QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener
@@ -31,13 +30,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libscale \
-
-PRODUCT_PACKAGES += \
-    libwvdrmengine \
-    libwvdrm_L3 \
-    libwvm \
-    libWVStreamControlAPI_L3
-
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/w7/w7-vendor-blobs.mk)
