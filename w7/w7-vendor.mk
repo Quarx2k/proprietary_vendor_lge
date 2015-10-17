@@ -30,6 +30,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libscale \
+    libmdmdetect \
+    libperipheral_client
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/w7/w7-vendor-blobs.mk)
