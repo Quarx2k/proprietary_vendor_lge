@@ -89,16 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/w7/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/w7/proprietary/lib/libuicc.so:system/lib/libuicc.so \
-    vendor/lge/w7/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/w7/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
-    vendor/lge/w7/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
-    vendor/lge/w7/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/w7/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
-    vendor/lge/w7/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
-    vendor/lge/w7/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
-    vendor/lge/w7/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/w7/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/w7/proprietary/bin/rild:system/bin/rild \
     vendor/lge/w7/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/w7/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/w7/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
@@ -266,7 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/libmmcamera_imx119.so:system/vendor/lib/libmmcamera_imx119.so \
     vendor/lge/w7/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
     vendor/lge/w7/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lge/w7/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/lge/w7/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
     vendor/lge/w7/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lge/w7/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
