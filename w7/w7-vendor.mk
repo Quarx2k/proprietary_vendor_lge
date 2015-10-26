@@ -20,7 +20,8 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/w7/overlay
 # Apps
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener
+    shutdownlistener \
+    com.qualcomm.location
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
@@ -30,7 +31,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libscale \
     libmdmdetect \
-    libperipheral_client
+    libperipheral_client \
+    libbtnv \
+    libqmiservices \
+    libqmi \
+    libqcci_legacy \
+    libqmi_client_qmux \
+    libqmi_csi \
+    libqmi_cci \
+    libqmi_common_so \
+    libdsi_netctrl
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/w7/w7-vendor-blobs.mk)
