@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES := \
 	    vendor/lge/w7/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/w7/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/w7/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/w7/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/w7/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
