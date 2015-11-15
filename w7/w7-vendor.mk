@@ -24,7 +24,9 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
-    libtime_genoff
+    libtime_genoff \
+    libTimeService \
+    TimeService
 
 PRODUCT_PACKAGES += \
     libscale \
