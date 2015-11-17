@@ -39,7 +39,9 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_cci \
     libqmi_common_so \
-    libdsi_netctrl
+    libdsi_netctrl \
+    libmm-abl \
+    libHevcSwDecoder
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/w7/w7-vendor-blobs.mk)
