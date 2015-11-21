@@ -70,9 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/w7/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/w7/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/lge/w7/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/lge/w7/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/lge/w7/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/lge/w7/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/w7/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/w7/proprietary/bin/radish:system/bin/radish \
@@ -279,6 +276,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/w7/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/w7/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/lge/w7/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
+    vendor/lge/w7/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+    vendor/lge/w7/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
+    vendor/lge/w7/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/w7/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/w7/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/w7/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
